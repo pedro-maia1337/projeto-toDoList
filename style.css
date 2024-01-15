@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    place-items: center;
+    border: none;
+}
+
+.sub:hover{
+    color: #BF0413;
+}
+
+.icone{
+    font-size: 20px;
+    color: #BF0413;
+    padding: 10px;
+}
+
+#txt{
+   border: none;
+}
+
+#txt{
+    width: 400px;
+}
+
+input[type=text]{outline:none}
+
+.add{
+    display: flex;
+    flex-direction: row;
+}
+
+.apagar{
+    border: none;
+    color: #025939;
+    background-image: url(./icones/checkmark-outline.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+
+
